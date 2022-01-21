@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(57, 84, 85);
+}
+.webbody{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+.header {
+    padding-bottom: 18px;
+    text-align: center;
+}
+.logo{
+    padding-top: 18px;
+}
+.companyname h1 {
+    font: 21px Verdana;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+    text-transform: uppercase;
+}
+.companyname {
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+.slogan p {
+    color: rgb(211, 49, 49);
+    font: 13px Verdana;
+}
+.nav {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(60, 56, 56);
+    padding: 4px 0px;
+}
+.nav li{
+    display: inline-block;
+    background-image: url(../img/nav.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.nav li.no {
+    background: none;
+}
+.nav li a {
+    color: white;
+    text-decoration: none;
+    font: 13px Verdana;
+    padding: 8px 15px 8px 15px;
+    display: inline-block;
+}
+.nav li a:hover {
+    color: rgb(235, 201, 15);
+}
+.nav li a.active {
+    color:  rgb(235, 201, 15);
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    margin-top: 2px;
+    margin-bottom: 44px;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+.w-400 {
+    width: 400px;
+}
+.fl-left{
+    float: left;
+}
+.fl-right{
+    float: right;
+}
+.form {
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+form {
+    align-self: flex-start;
+}
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px;
+}
+.heading h2 {
+    font-size: 25px;
+    color: rgb(60, 56, 56);
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+input{
+    width: 385px;
+    padding: 5px 5px;
+    margin: 10px 0px;
+}
+textarea{
+    width: 385px;
+    margin: 10px 0px;
+}
+.btn {
+    align-self: center;
+    margin: 10px 0px;
+}
+.btn button{
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: rgb(81, 25, 128);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background-color;
+}
+.btn button:hover{
+    background-color: blue;
+    transition: 1s background-color;
+}
+.abovefooter {
+    width: 100%;
+    padding-top: 5px;
+    background-color: #c4c3c3;
+    margin-top: 44px;
+}
+footer{
+    background-color: rgb(60, 56, 56);
+    padding-bottom: 23px;
+}
+.footnavul{
+    padding-top: 23px;
+    padding-bottom: 13px;
+    text-align: center;
+}
+.footnavul li{
+    display: inline-block;
+    
+}
+.footnavul li a{
+    color: white;
+    text-decoration: none;
+    font: 13px Arial;
+}
+.separatorfoot{
+    color: white;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font: 12px Verdana;
+}

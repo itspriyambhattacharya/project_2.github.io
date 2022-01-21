@@ -1,0 +1,76 @@
+.sliderwrapper{
+position: relative; /*leave as is*/
+overflow: hidden; /*leave as is*/
+/* border: 10px solid navy; */
+/* border-bottom-width: 6px; */
+width: 1000px; /*width of featured content slider*/
+height: 312px;
+}
+.banner{
+    position: relative;
+}
+
+
+.sliderwrapper .contentdiv{
+visibility: hidden; /*leave as is*/
+/* position: absolute; leave as is */
+left: 0;  /*leave as is*/
+top: 0;  /*leave as is*/
+/* padding: 5px; */
+/* background: white; */
+width: 1000px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+height: 312px;
+filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+}
+
+.design{
+    /* display: inline-block; */
+    list-style: none;
+    position: absolute;
+    z-index: 999;
+    bottom: -9px;
+    right: 50px;
+    transform: rotate(270deg);
+}
+.design li{
+    margin: 4px 0px;
+}
+
+.design li a{
+    background: url(../img/index/whitedot.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    
+}
+
+.design li a.selected{
+    background: url(../img/index/red-dot.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+/*
+ .pagination{
+width: 400px; 
+text-align: right;
+background-color: navy;
+padding: 5px 10px;
+}
+
+.pagination a{
+padding: 0 5px;
+text-decoration: none; 
+color: #00007D;
+background: white;
+}
+
+.pagination a:hover, .pagination a.selected{
+color: #000;
+background-color: #FEE496;
+}
+ */
